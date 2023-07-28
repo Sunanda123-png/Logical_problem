@@ -13,7 +13,7 @@ alphabet_index(alphabet, "Oscar") ➞ "19s"""
 
 def list_problem(alphabet, name):
     highest_letter = ''
-    highest_index = -1
+    highest_index = 0
     for element in name:
         if element in alphabet:
             ind = alphabet.index(element)
