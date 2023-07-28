@@ -20,3 +20,7 @@ def rearrange(num):
 
 num = 972882
 print(rearrange(num))
+
+def unique(char):
+    ch
+    un = [char for char in char_count if char_count[char]==1 ]
