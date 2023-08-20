@@ -45,7 +45,7 @@ try checking out the Python class tutorials in the Resources tab.
 #         super().__init__(["stram", "download", "sd", 1, 8.99])
 #
 #
-# class StandardPlan(Stream):
+# class StandardPlan(BasicPlan):
 #     def __init__(self):
 #         super().__init__(["stram", "download", "sd", 'hd', 2, 12.99])
 #

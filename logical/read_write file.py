@@ -5,7 +5,7 @@
 
 
 file = open("./python_test.txt", "w")
-j = "i am in india"
+j = "i am in india and india is beautiful"
 write_text = file.write(j)
 file.close()
 file1 = open("./python_test.txt", "r")
