@@ -7,17 +7,17 @@ Explanation: String can be interpreted as a sequence of twelve W’s, one B, twe
 
 
 def string_count(text):
-    s = ""
-    current_latter = text[0]
+    s = ''
+    current_elemnet = text[0]
     count = 1
     for i in range(1, len(text)):
-        if text[i] == current_latter:
+        if current_elemnet == text[i]:
             count += 1
         else:
-            s += str(count) + current_latter
+            s += str(count) + current_elemnet
             count = 1
-            current_latter = text[i]
-    s += str(count) + current_latter
+            current_elemnet = text[i]
+    s += str(count) + current_elemnet
 
     return s
 

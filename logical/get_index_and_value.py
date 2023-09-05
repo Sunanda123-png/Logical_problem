@@ -3,8 +3,8 @@ look like (index, value), (index, value)"""
 
 
 def get_index_and_value(arr):
-    # result = [(index, value) for index, value in enumerate(arr)]
-    result = {index: value for index, value in enumerate(arr)}
+    result = [(index, value) for index, value in enumerate(arr)]
+    # result = {index: value for index, value in enumerate(arr)}
     return result
 
 

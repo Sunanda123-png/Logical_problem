@@ -27,6 +27,6 @@ def order_list(list_a, list_b):
             return False
         return True
     
-list_a = [5, 4, 3, 2, 1]
+list_a = [2,3,4]
 list_b = [1, 2, 3, 4, 5]
 print(order_list(list_a,list_b))

@@ -9,6 +9,7 @@ def selection_sort(arr):
         arr[index], arr[min_ind] = arr[min_ind], arr[index]
     return arr
 
+
 if __name__ == "__main__":
     print(__name__)
     arr = [56, 27, 13, 1, 87, 23]

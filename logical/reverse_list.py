@@ -2,9 +2,10 @@
 
 
 def reverse_list(arr):
-    l = []
-    for element in range(len(arr)-1, -1, -1):
-        l.append(arr[element])
+    # l = []
+    # for element in range(len(arr)-1, -1, -1):
+    #     l.append(arr[element])
+    l = arr[::-1]
     return l
 
 
@@ -30,3 +31,23 @@ def reverse_list(arr):
 
 arr = [2, 4, 6, 8, 10]
 print(reverse_list(arr))
+
+
+"""reverse a string from midle
+input - jaikrishna
+output  -  rkiajishna"""
+
+
+def reverse_from_middle(txt):
+    s = ''
+    length = len(txt)
+    mid = length//2
+    first_half = txt[:mid]
+    rever = first_half[::-1]
+    second_half = txt[mid:]
+    result = rever + second_half
+    return  result
+
+str = "jaikrishna"
+print(reverse_from_middle(str))
+

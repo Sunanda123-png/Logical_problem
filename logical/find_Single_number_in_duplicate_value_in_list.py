@@ -12,12 +12,14 @@ Output: 4"""
 
 
 def find_single(arr):
+    list =[]
     for num in arr:
         if arr.count(num) == 1:
-            return num
+            list.append(num)
+    return list
 
 
-arr = [2, 2, 1, 3, 3]
+arr = [2, 2, 1, 3, 3, 7]
 print(find_single(arr))
 
 
